@@ -3,7 +3,7 @@ import numpy as np
 import math
 from decimal import Decimal, getcontext
 
-# 设置300位精度
+# 设置300位精
 getcontext().prec = 300
 
 # 任务
@@ -291,5 +291,6 @@ if __name__ == "__main__":
     for val in test_values:
         truncated = trunc(val, 4)
         print(f"  trunc({val}, 4) = {truncated}")
+
 
     print("\n=== 测试完成 ===")
